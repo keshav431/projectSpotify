@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify PlayList</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="playlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="assets/index-favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftbox itm">
+            <div class="searchbox">
+                <div class="logo">
+                    <img src="assets/login-logo.png" alt="">
+                </div>
+                <div class="home">
+                    <div class="homeicon icon">
+                        <img src="assets/home.png" alt="">
+                    </div>
+                    <div class="hometxt txt">
+                        <span class="roboto-medium">Home</span>
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="searchicon icon">
+                        <img src="assets/search-icon.svg" alt="">
+                    </div>
+                    <div class="searchtxt txt">
+                        <span class="roboto-medium">Search</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerlib">
+                <div class="library">
+                    <div class="lib-header">
+                        <div class="lib-header-left">
+                            <div class="stackico">
+                                <img src="assets/stack.png" alt="">
+                            </div>
+                            <div class="stacktxt" title="Collapse your library">
+                                <a href="" class="yourlib roboto-medium">Your Library</a>
+                            </div>
+                        </div>
+                        <div class="lib-header-right">
+                            <a class="addplaylist">+</a>
+                        </div>
+                    </div>
+                    <div class="scrolllist">
+                        <div class="playlist-card">
+                            <p class="l1 roboto-medium">Create your first playlist</p>
+                            <p class="l2 roboto-regular">It's easy, we'll help you</p>
+                            <button class="l3 roboto-medium">Create playlist</button>
+                        </div>
+                        <div class="playlist-card">
+                            <p class="l1 roboto-medium">Let's find some podcasts to follow</p>
+                            <p class="l2 roboto-regular">We'll keep you updated on new episodes</p>
+                            <button class="l3 roboto-medium">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="leftfoot">
+                    <ul class="links">
+                        <li><a href="" class="link-itm roboto-regular">Legal</a></li>
+                        <li><a href="" class="link-itm roboto-regular">Saftey & Privacy Center</a></li>
+                        <li><a href="" class="link-itm roboto-regular">Privacy Policy</a></li>
+                        <li><a href="" class="link-itm roboto-regular">Cookies</a></li>
+                        <li><a href="" class="link-itm roboto-regular">About Ads</a></li>
+                        <li><a href="" class="link-itm roboto-regular">Accessibilty</a></li>
+                        <li><a href="" class="link-itm roboto-regular last-itm">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <button class="lang-btn">
+                        <div>
+                            <img src="assets/lang.png" alt="" class="lang-btn-img">
+                        </div>
+                        <div>
+                            <span class="lang-btn-txt roboto-regular">English</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainbox itm">
+            <div class="nav">
+                <div class="leftnav">
+                    <div>
+                        <img src="assets/next.png" alt="" class="prev-icon play-icon">
+                    </div>
+                    <div>
+                        <img src="assets/next.png" alt="" class="next-icon play-icon">
+                    </div>
+                </div>
+                <div class="rightnav">
+                   <div class="account roboto-regular">
+                    K
+                   </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="playlist roboto-regular" >
+                    <div class="platlist_detail">
+                        <div class="platlist_detail_img">
+                            <img src="plylist/lofi.jpg" alt="">
+                        </div>
+                        <div class="platlist_detail_d">
+                            <p  class="platlist_detail_p">spotify</p>
+                            <h1 class="platlist_detail_head">lofi beats</h1>
+                            <p class="platlist_detail_p">
+                                chill beats, lofi vibes, new tracks every week...
+                            </p>
+                            <div class="det">
+                                <img src="assets/index-favicon.ico" alt="" style="height:20px">
+                                <a href="index.html" id="title" >spotify</a>
+                                <ul style="display:flex ;list-style: inside;">
+                                    <li>5,246,526 likes ,</li>
+                                    <li>750 songs , </li>
+                                    <li>over 24 hr  </li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="playlist_access">
+                        <div class="platlist_access_btn">
+                            <p class="e">play</p>
+                            <p class="e">heart</p>
+                            <p class="e">dot</p>
+                        </div>
+                        <div class="platlist_access_list">
+                            <p>list</p>
+                        </div>
+                    </div>
+                    <div class="list roboto-regular">
+                        <div class="List_index item_detail">
+                            <div class="list_index">#</div>
+                              <div class="album" style="width:25vw">
+                                Title
+                            </div>
+                            <div class="album" ">Album</div>
+                            <div class="album">Date Added</div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOs_TrsdBIw1jUmv6PY1_LcmzFCSlYXZl4yq8iNS8ARw&s" style="padding-left:2rem;height:30px"alt="">
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">1</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2XZnydfymfyuFnudxg4xUP5p699G1vF1MIA&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Summer Rain</p>
+                                <p id="song_list">
+                                    Blue Wednesday
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Lover</div>
+                            <div class="album">2 week ago</div>
+                            <div class="time">2:38</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">2</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OvIYw895PrXicLZj-EiidemP5eI34nJ2Qw&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Coffee Shop</p>
+                                <p id="song_list">
+                                    ax am
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Coffee shop</div>
+                            <div class="album">2 week ago</div>
+                            <div class="time">8:23</div>
+                        </div>
+                        <div class="item_detail roboto-regular" >
+                            <div class="list_index">3</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeLh-e5iaaih5Qcq1ntnU5uOgMyx2n3KEyPQ&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Camping trips</p>
+                                <p id="song_list">
+                                   CollinWorthy
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Camping Trips</div>
+                            <div class="album">3 week ago</div>
+                            <div class="time">6:45</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">4</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWHkKArUkawdFcSUZZTTYDizh3Juho54bFA&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">The Jam</p>
+                                <p id="song_list">
+                                    Audio Fill
+                                </p>
+                            </div>
+                            <div class="album" id="abl">The Jam</div>
+                            <div class="album">2 week ago</div>
+                            <div class="time">1:29</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">5</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTMVxn_L2QxQ_9iAjckzozr0uCx9ABxZYXg&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Water Colour</p>
+                                <p id="song_list">
+                                    Zoee Reed 
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Water Colour</div>
+                            <div class="album">4 week ago</div>
+                            <div class="time">4:48</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">6</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSTpkRPkUqryvAqgqNxrq0wVXALjcrbvc8g&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Avocades</p>
+                                <p id="song_list">
+                                    Breakfast For Brunch
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Avocades</div>
+                            <div class="album">2 week ago</div>
+                            <div class="time">2:11</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">7</div>
+                             <img class="list_img" src="https://img.freepik.com/premium-photo/anime-girl-watching-sunset-3d-illustration_717906-1415.jpg" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Tenderly</p>
+                                <p id="song_list">
+                                    eze east
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Tenderly</div>
+                            <div class="album">5 week ago</div>
+                            <div class="time">7:34</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">8</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfdwPRRkNyLPeIytFFG2ZAx8HNZY6FjKfUUA&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Crazy Love</p>
+                                <p id="song_list">
+                                    Sakure
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Crazy Love</div>
+                            <div class="album">4 week ago</div>
+                            <div class="time">9:09</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">9</div>
+                             <img class="list_img" src="https://e0.pxfuel.com/wallpapers/475/445/desktop-wallpaper-lonely-road-night-lonely-street.jpg" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Lonely Street</p>
+                                <p id="song_list">
+                                    Treo Del Norte
+                                </p>
+                            </div>
+                            <div class="album" id="abl">At least I know</div>
+                            <div class="album">6 week ago</div>
+                            <div class="time">7:29</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">10</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr1e0zFDdOyxW6KJXiSUKK4qBnTXfrIRYgVQ&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Passing Time</p>
+                                <p id="song_list">
+                                    sean Murphy
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Passing Time</div>
+                            <div class="album">2 hour ago</div>
+                            <div class="time">3:17</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">11</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1nCEXY7fdR51DmE3ytZz0gX1ZeYlgqPzZw&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">Skill Smouth</p>
+                                <p id="song_list">
+                                    Mace fill
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Skill Smouth</div>
+                            <div class="album">2 week ago</div>
+                            <div class="time">1:29</div>
+                        </div>
+                        <div class="item_detail">
+                            <div class="list_index">12</div>
+                             <img class="list_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_CqChAofhsjVYgSymQszXmA3t5K1orqwaw&usqp=CAU" alt="">
+                            <div class="list_name">
+                                <p id="song_name">The Touch of Your lips</p>
+                                <p id="song_list">
+                                    Ben Webster
+                                </p>
+                            </div>
+                            <div class="album" id="abl">Touch</div>
+                            <div class="album">210 hours ago</div>
+                            <div class="time">12:56</div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="mainhead">
+                    <div class="mainhead-h1">
+                        <h2 class="roboto-black">You might also like</h2>
+                    </div>
+                    <div class="mainhead-h2">
+                        <span class="roboto-medium">Show all</span>
+                    </div>
+                </div>
+                <div class="playlistbar">
+                    <div class="card">
+                        <div class="card-thumbnail">
+                            <img src="assets/cards/1.jpg" alt="">
+                        </div>
+                        <div class="card-heading roboto-regular">
+                            <h3>lofi beats</h3>
+                        </div>
+                        <div class="card-txt roboto-regular">
+                            <p>chill beats, lofi vibes, new tracks every week...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumbnail">
+                            <img src="assets/cards/2.jpg" alt="">
+                        </div>
+                        <div class="card-heading roboto-regular">
+                            <h3>Today's Top Hits</h3>
+                        </div>
+                        <div class="card-txt roboto-regular">
+                            <p>Dua Lipa is on top of Hottest 50!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumbnail">
+                            <img src="assets/cards/3.jpg" alt="">
+                        </div>
+                        <div class="card-heading roboto-regular">
+                            <h3>Chillout Lounge</h3>
+                        </div>
+                        <div class="card-txt roboto-regular">
+                            <p>Just lean back and enjoy relaxed beats.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumbnail">
+                            <img src="assets/cards/4.jpg" alt="">
+                        </div>
+                        <div class="card-heading roboto-regular">
+                            <h3>All out 2020s</h3>
+                        </div>
+                        <div class="card-txt roboto-regular">
+                            <p>The biggest songs of the 2020s</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumbnail">
+                            <img src="assets/cards/5.jpg" alt="">
+                        </div>
+                        <div class="card-heading roboto-regular">
+                            <h3>Jazz in the ba..</h3>
+                        </div>
+                        <div class="card-txt roboto-regular">
+                            <p>Soft instrumental jazz for all the activities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainfoot">
+                    <div class="refer">
+                        <div>
+                            <ul class="ref1 ref">
+                                <li class="ref-heading roboto-regular">Company</li>
+                                <li><a href="" class="ref-itm roboto-regular">About</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Jobs</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="ref2 ref">
+                                <li class="ref-heading roboto-regular">Communities</li>
+                                <li><a href="" class="ref-itm roboto-regular">For Artists</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Developers</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Advertising</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Investors</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="ref3 ref">
+                                <li class="ref-heading roboto-regular">Useful links</li>
+                                <li><a href="" class="ref-itm roboto-regular">Support</a></li>
+                                <li><a href="" class="ref-itm roboto-regular">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="div-ig">
+                            <img src="assets/Social/ig.png" alt="" class="followus ig">
+                        </div>
+                        <div class="div-x">
+                            <img src="assets/Social/twitter.png" alt="" class="followus x">
+                        </div>
+                        <div class="div-fb">
+                            <img src="assets/Social/fb.png" alt="" class="followus fb">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright roboto-light">
+                    &copy; 2024 Spotify AB
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert">
+        <footer>
+            <div class="footer-txt">
+                <p>Preview of Spotify</p>
+                <p>Sign up to get unlimited songs and podcasts with original ads. No credit card needed.</p>
+            </div>
+            <div class="footer-btn">
+                <button class="signupfree" onclick="window.open('signup.html', '_self');">Sign up free</button>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
